@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="RealtickTickerConverter.exe" version="1.0.0.4" publicKeyToken="6bf560baff2969b2" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RealtickTickerConverter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RealtickTickerConverter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RealtickTickerConverter.exe" size="14336">
+      <assemblyIdentity name="RealtickTickerConverter" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>953xYDxKhttNoBQrTR2IwX/QhEI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=jpc-PC\jpc" issuerKeyHash="bd18fd9c19098c8ec5278173200122a3b1101f88" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5gmEIHGjuCzG/avMCIp3p8TfZOc=</DigestValue></Reference></SignedInfo><SignatureValue>YgVsDZ1Ghhutc9JQzAL4shDLbgeDw+vWSMYU//hczmlSXOeU8hXGJXpZoElVzpmifQKXN4M7f6bbLHwf0zT54FS08IoYBZprFVSutZxhvqu+gY0Uvk3XbhyRXKlApgYRlb7CKBf+kw/E0rpA6UMaXhPkGbdkUDjAxycukVBaXXA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>y46aA+bGsBmNTBw6t1dboBD8qxODMLLW9CcXZpNPM/uq//o0BJirmR+LHWyCutmBOBYW4T9I5zJNCHbIP1jCFry1iNMVblWwI6M/FZNfSmRVnikZqVHp/9vR9ZtObnVeMagFBpiSxJrCrnXLtGWW59p9UHNNqFTpxz1eNIrsjaM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e764dfc4a7778a08ccabfdc62cb8a371208409e6" Description="" Url=""><as:assemblyIdentity name="RealtickTickerConverter.exe" version="1.0.0.4" publicKeyToken="6bf560baff2969b2" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=jpc-PC\jpc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TPc1LAL3Cy2VxHG5HZMgfC+t7WE=</DigestValue></Reference></SignedInfo><SignatureValue>ivViHdn38zE0aeLRQJ9j7fmsbRfoOu31zeBdwpsPOv3TAcTSqCS8Rw7l+sXSvKL02W7l5gaClSbli5CF7Fj+z+ztj1ptXGsr7xE5bBaogzqh2pER1R/zj0dqGKUali44KFkibDNJgS2J5KKzvoHFNFptOXwASP5Tx055nM+NSLw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>y46aA+bGsBmNTBw6t1dboBD8qxODMLLW9CcXZpNPM/uq//o0BJirmR+LHWyCutmBOBYW4T9I5zJNCHbIP1jCFry1iNMVblWwI6M/FZNfSmRVnikZqVHp/9vR9ZtObnVeMagFBpiSxJrCrnXLtGWW59p9UHNNqFTpxz1eNIrsjaM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQNs4htEOD2olKm2TcajeHiTANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAagBwAGMALQBQAEMAXABqAHAAYzAeFw0xMTExMDQwNTMzMzJaFw0xMjExMDMxMTMzMzJaMB8xHTAbBgNVBAMeFABqAHAAYwAtAFAAQwBcAGoAcABjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLjpoD5sawGY1MHDq3V1ugEPyrE4Mwstb0Jxdmk08z+6r/+jQEmKuZH4sdbIK62YE4FhbhP0jnMk0Idsg/WMIWvLWI0xVuVbAjoz8Vk19KZFWeKRmpUen/29H1m05udV4xqAUGmJLEmsKudcu0ZZbn2n1Qc02oVOnHPV40iuyNowIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAK3EMy2f1JTZ7O7ChpgfFMIos2800onEt6hWDNrIOAYA0JBGz8HCDewFAnN9Nj+jJz/YldOn40kMIjij+zUV1tGpC4D011GybvuEWu7Otuk8i6LngJCExFgk4C4SQQczwqKnhJNK1/m4c3DO32GETcVInG6YYAp8RoAVNha2Vca5</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
